@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passwo generator</title>
+    <style>
+        body{
+            background-color: rgb(74, 6, 161);
+        }
+        .container{
+            display: flex;
+            margin: auto;
+            width: 400px;
+            flex-direction: column;
+            /* height: 200px; */
+        }
+        .output{
+
+          width: 300px;
+          color: white;
+          padding: 18px;
+          font-size: 20px;
+          background-color: #000000
+        }
+        .btn{
+            /* width: 100px; */
+            padding: 15px;
+            border-radius: 10px;
+            margin: 5px;
+        }
+        .btn:hover{
+            background-color: green;
+            color: white;
+            transform: scale(1.03);        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: white;">Generate Passowrd</h1>
+        <div class="output" id="output"></div>
+        <div class="button">
+
+            <button class="btn" id="btn">Generate Password</button>
+            <button class="btn" id="copy">copy</button>
+        </div>
+        
+    </div>
+
+    <script src="passwordgenerator.js"></script>
+</body>
+</html>
